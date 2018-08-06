@@ -1,5 +1,5 @@
 <?php
-
+//bla
 $link = mysqli_connect('localhost', 'ruben', 'IxklRlS4PYWZGwrG', 'oefen');
 if (!$link) {die('Could not connect: ' . mysqli_connect_error());}
 if (isset($_POST['submit']) && $_POST['submit'] == 'Submit')
